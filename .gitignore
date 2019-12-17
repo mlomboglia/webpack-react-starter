@@ -1,0 +1,28 @@
+# Don't commit system files or dependencies
+*.DS_Store
+node_modules/
+
+# Jekyll
+_site
+.jekyll-metadata
+/.bundle
+/vendor
+/dist
+/.tmp
+
+# Logfiles and tempfiles
+*.log
+/log/*
+!/log/.keep
+/tmp
+
+# Other unneeded files
+doc/
+*.swp
+*~
+.project
+.DS_Store
+.idea
+.secret
+
+
