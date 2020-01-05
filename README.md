@@ -1,6 +1,6 @@
 # A Complete Webpack Setup for React
 
-![Alt text](/src/assets/webpack_babel.png)
+![Alt Webpack + Babel + React](/src/assets/webpack_babel.png)
 
 Detailed instructions available in my Medium Post:
 
