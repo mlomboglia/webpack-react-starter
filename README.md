@@ -1,6 +1,10 @@
 # webpack-react-starter
-A Complete Webpack Setup for React
+Build a React App using AWS Amplify in Simple Steps
 
-Complete instructions available in my Medium Post:
+Complete instructions available in my Medium Posts:
 
-https://medium.com/swlh/a-complete-webpack-setup-for-react-e56a2edf78ae
+Part 1 - Authentication
+
+https://medium.com/better-programming/build-a-react-app-with-authentication-using-aws-amplify-49db1dfdc290
+
+Part 2 - GraphQL
