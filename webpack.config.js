@@ -28,8 +28,10 @@ module.exports = {
                     { 
                         loader: 'css-loader',
                         options: {
-                            importLoaders: 1,
-                            modules: true
+                            modules: {
+                                localIdentName: "[name]__[local]___[hash:base64:5]",
+                            },														
+                            sourceMap: true
                         }
                      },
                      { 
@@ -37,12 +39,7 @@ module.exports = {
                          options: {
                              ident: 'postcss',
                              plugins: () => [
-                                 autoprefixer({
-                                     browsers: [
-                                        "> 1%",
-                                        "last 2 versions"
-                                     ]
-                                 })
+                                 autoprefixer({})
                              ]
                          }
                       }
