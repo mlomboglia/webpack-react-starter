@@ -35,13 +35,14 @@ module.exports = {
                         }
                      },
                      { 
-                         loader: 'postcss-loader',
-                         options: {
-                             ident: 'postcss',
-                             plugins: () => [
-                                 autoprefixer({})
-                             ]
-                         }
+                        loader: 'postcss-loader',
+                        options: {
+                            postcssOptions: {
+                                plugins: [
+                                    [ 'autoprefixer', {}, ],
+                                ],
+                            },
+                        }
                       }
                 ]
             },
