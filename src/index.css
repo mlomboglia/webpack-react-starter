@@ -11,3 +11,7 @@ img {
     width: 640px;
     height: 426px;
 }
+
+.contentContainer {
+    border: 5px solid black;
+}
